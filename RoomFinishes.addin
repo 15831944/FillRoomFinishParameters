@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+        <AddIn Type="Command">
+                <Name>RoomFinishes</Name>
+                <FullClassName>RoomFinishes.RoomFinder</FullClassName>
+                <Text>RoomFinder</Text>
+                <Description>Fill Room Parameters.</Description>
+                <VisibilityMode>AlwaysVisible</VisibilityMode>
+                <Assembly>C:\ProgramData\Autodesk\Revit\Addins\2019\RoomFinishes.dll</Assembly>
+                <AddInId>c8e8ca8a-ce48-4d65-b139-896152ae6fc9</AddInId>
+                <VendorId>Rita Aguiar</VendorId>
+                <VendorDescription>Rita Aguiar, rita.aguiar@outlook.com</VendorDescription> 
+        </AddIn>
+  <AddIn Type="Application">
+    <Name>ModelessForm_ExternalEvent</Name>
+    <Assembly>RoomFinishes.dll</Assembly>
+    <ClientId>51545765-0541-49bc-b692-7745f0a3ac38</ClientId>
+    <FullClassName>RoomFinishes.Application</FullClassName>
+	<VendorId>Rita Aguiar</VendorId>
+	<VendorDescription>Rita Aguiar, rita.aguiar@outlook.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
